@@ -28,7 +28,7 @@ async function api() {
         }
     }
     catch (error) {
-        console.log(error);
+        //console.log(error);
         resultscontainer.innerHTML = error
     }
 }
